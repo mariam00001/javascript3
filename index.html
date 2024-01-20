@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <section>
+    <h1 class="text-center pt-5">Bookmarker</h1>
+   </br>
+   <div class="dot w-75 m-auto">
+    <h2 class="text-center pt-5"> Bookmark your favorite sites </h2>
+    <div class="input m-auto ">
+        <i class="fa-solid fa-book-bookmark fa-sm"></i>
+    <label for="siteName">Site Name</label>
+    <input type="text" id="siteName" class="form-control mb-4">
+    <i class="fa-solid fa-link"></i>
+    <label for="siteURL">Site URL</label>
+    <input type="link" id="siteURL" class="form-control mb-5">
+    </div>
+    <div class="botn d-flex justify-content-center mb-5">
+        <button class="btn btn-danger btn-lg " onclick="addProduct();">submit</button>
+        </div>
+   </div>
+
+    <table class="table w-75 text-center m-auto mt-5">
+        <thead>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="bTable">
+    
+        </tbody>
+    </table>
+   </section>
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

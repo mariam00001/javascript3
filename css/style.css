@@ -1,0 +1,16 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    color: #3EA55B;
+}
+.dot{
+    border-top: dotted;
+    border-bottom: dotted;
+}
